@@ -1,0 +1,144 @@
+<DOCTYPE! html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Резервации на футболни игрища</title>
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"
+    / >
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.datetimepicker.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/calendar.js"></script>
+</head>
+
+<body>
+<header class="header">
+    <img class="headericon" src="gallery/icon/header.png">
+    <img class="icon" src="gallery/icon/5.png">
+
+    <div class="clearfix">&nbsp;</div>
+</header>
+
+<div class="box">
+    <div id="mainMenu">
+        <ul>
+            <li class="current"><a href="index.html">Начало</a></li>
+            <li class="current"><a href="promotion.html">Промоции</a></li>
+            <li class="current"><a href="aboutus.html">За нас</a></li>
+            <li class="current"><a href="contact.html">Контакти</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <ul class="complexes">
+            <li>
+                <div class="photos" id="photos">
+                    <img class="photo" id="zoom_01" src="gallery/Baroco/image1.jpg" width="100%" height="100%"/>
+
+                    <div class="gal1">
+                        <a href="#123123" data-image="gallery/Baroco/image1.jpg">
+                            <img class="smallimage3" id="img_01" src="gallery/Baroco/thumb1.jpg"/>
+                        </a>
+
+                        <a href="#123123" data-image="gallery/Baroco/image2.jpg">
+                            <img class="smallimage3" id="img_01" src="gallery/Baroco/thumb2.jpg"/>
+                        </a>
+
+                        <a href="#123213" data-image="gallery/Baroco/image3.jpg">
+                            <img class="smallimage3" id="img_01" src="gallery/Baroco/thumb3.jpg"/>
+                        </a>
+
+                        <a href="#12312312" data-image="gallery/Baroco/image4.jpg">
+                            <img class="smallimage3" id="img_01" src="gallery/Baroco/thumb4.jpg"/>
+                        </a>
+
+                    </div>
+                    <div class="clearfix">&nbsp;</div>
+                </div>
+                <div class="information">
+                    <h2>За комплекса</h2>
+
+                    <p>Чисто новият терен на "Нико спорт" е изграден в Младост-2 в близост до РУМ "Младост". Н
+                        амира се между блокове 217 и 218А. Игрището е с размери 20x40 метра и е изключително добре
+                        осветено.
+                        Изкуствената трева е с Shockpad подложка. Теренът е покрит с мрежа, поставена на 8 метра
+                        височина.</p>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+                <div class="priceList">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <th colspan="2" scope="col" class="days">От понеделник до петък</th>
+                        </tr>
+                        <tr>
+                            <th scope="row"><span>До 17 часа:</span></th>
+                            <td class="price"><span>50 лв. за час</span></td>
+                        </tr>
+                        <tr class="last">
+                            <th scope="row"><span>От 17 до 24 часа:</span></th>
+                            <td class="price"><span><strong>70 лв.</strong> за час</span></td>
+                        </tr>
+                        </tbody>
+                        <tbody>
+                        <tr>
+                            <th colspan="2" scope="col" class="days">Събота и неделя</th>
+                        </tr>
+                        <tr class="last">
+                            <th scope="row"><span>Цял ден</span></th>
+                            <td class="price"><span>70 лв. за час</span></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="pitchdetails">
+                    <table>
+                        <tr>
+                            <th>Настилка:</th>
+                            <td>Изкуствена трева</td>
+                        </tr>
+                        <tr>
+                            <th>Тип:</th>
+                            <td>Открит</td>
+                        </tr>
+                        <tr>
+                            <th>Дължина:</th>
+                            <td>40 метра</td>
+                        </tr>
+                        <tr>
+                            <th>Ширина:</th>
+                            <td>20 метра</td>
+                        </tr>
+                    </table>
+                </div>
+            </li>
+            <li>
+                <div class="clearfix">&nbsp;</div>
+                <div class="reservation">
+                <form name="myForm" method="POST" class="profile-form2">
+                    <fieldset>
+                        <legend>Направи резервация:</legend>
+                        <br/>
+                        <label id="name" class="form-label2">Име</label>
+                        <input type="text" name="name" class="user"/><br/>
+                        <label id="date" class="form-label2">Дата</label>
+                        <input type="text" name="date" id="datetimepicker1"/><br/>
+                        <label id="hour_from" class="form-label2">Час от</label>
+                        <input type="text" name="hour_from" class="datetimepicker2"/><br/>
+                        <label id="hour_to" class="form-label2">до</label>
+                        <input type="text" name="hour_to" class="datetimepicker2"/><br/>
+                        <input type="submit" value="Резервирай" class="submit" OnClick="submitform()"/> <br/>
+                    </fieldset>
+                </form>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+            </li>
+        </ul>
+    </div>
+</div>
+<footer>
+    <p>Copyright©2015</p>
+</footer>
+</body>
+</html>

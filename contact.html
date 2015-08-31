@@ -1,0 +1,77 @@
+<DOCTYPE! html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Резервации на футболни игрища</title>
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet"/>
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<header class="header">
+    <img class="headericon" src="gallery/icon/header.png">
+    <img class="icon" src="gallery/icon/5.png">
+
+    <div class="clearfix">&nbsp;</div>
+</header>
+<div class="box">
+    <div id="mainMenu">
+        <ul>
+            <li class="current"><a href="index.html">Начало</a></li>
+            <li class="current"><a href="promotion.html">Промоции</a></li>
+            <li class="current"><a href="aboutus.html">За нас</a></li>
+            <li class="current"><a class="active" href="contact.html">Контакти</a></li>
+        </ul>
+    </div>
+    <div class="container2">
+        <h2>Контакти</h2>
+
+        <div class="form">
+            <form method="POST" action="" class="profile-form">
+                <fieldset>
+                    <label class="form-label" for="firstName">Име</label>
+
+                    <input class="form-input" id="name" type="text" placeholder="Име"/>
+                </fieldset>
+
+                <fieldset>
+                    <label class="form-label" for="email">Емайл</label>
+
+                    <input class="form-input" id="email" type="text"  placeholder="Емайл" required/>
+                </fieldset>
+
+                <fieldset>
+                    <label class="form-label" for="Information">Съобщение</label>
+
+                    <textarea class="form-input" id="text" type="text" placeholder="Съобщение" cols="37"
+                              rows="15"></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <input class="form-submit" type="submit" value="Изпрати" onclick="contactDetails()"/>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="details">
+            <ul class="contactsList">
+                <li class="social"><img src="gallery/icon/1.png" alt="Телефон"> Телефон: 08 8373 6424</li>
+                <li class="social"><img src="gallery/icon/2.png" alt="Телефон"> E-mail: info@tereni.bg</li>
+                <li class="social"><img src="gallery/icon/3.png" alt="Телефон"> <a href="http://www.facebook.com/"
+                                                                                   title="tereni.bg във facebook">Facebook
+                    страница</a></li>
+                <li class="social"><img src="gallery/icon/4.png" alt="Телефон"> <a href="http://www.twitter.com/">Twitter</a>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix">&nbsp;</div>
+
+
+    </div>
+</div>
+<footer>
+    <p>Copyright©2015</p>
+</footer>
+</body>
+</html>
